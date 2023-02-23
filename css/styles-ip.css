@@ -29,7 +29,7 @@ h3 {
 }
 
 main {
-  background-color: var(--couleur-secondaire);
+  background-color: var(--couleur-semi-blanc);
 }
 
 .navbar-brand {
@@ -184,6 +184,17 @@ iframe {
   font-size: 25px;
 }
 
-.card-img-top {
-  height: 25vh;
+.container-fluid {
+  background-color: var(--couleur-rose-pale);
+  margin: 18px;
+  padding-bottom: 35px;
+}
+
+.container-fluid2 {
+  background-color: var(--couleur-rose-pale);
+  margin: 18px;
+}
+
+.card-body {
+  margin: 20px;
 }
