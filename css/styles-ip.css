@@ -193,6 +193,7 @@ iframe {
 .container-fluid2 {
   background-color: var(--couleur-rose-pale);
   margin: 18px;
+  padding-bottom: 100px;
 }
 
 .card-body {
