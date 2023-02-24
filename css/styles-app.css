@@ -124,3 +124,8 @@ p{
 .horaire{
    font-size: 10px;
 }
+
+.card-body{
+   width: 140%; 
+   
+}
