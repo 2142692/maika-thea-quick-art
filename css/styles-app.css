@@ -1,131 +1,137 @@
 :root{
-    --couleur-primaire:#83C5BE;
-    --couleur-secondaire:#006D77;
-    --couleur-semi-blanc:#EDF6F9;
-    --couleur-rose-pale:#FFDDD2;
-    --couleur-rose-foncé:#E29578;
-    --font-raleway: 'Raleway', sans-serif;
-    --font-prompt: 'Prompt', sans-serif;
-    }
-    
-  
+   --couleur-primaire:#83C5BE;
+   --couleur-secondaire:#006D77;
+   --couleur-semi-blanc:#EDF6F9;
+   --couleur-rose-pale:#FFDDD2;
+   --couleur-rose-foncé:#E29578;
+   --font-raleway: 'Raleway', sans-serif;
+   --font-prompt: 'Prompt', sans-serif;
+   }
+   
+ 
 
-    nav{
-        background-color: var(--couleur-secondaire);
-        position: fixed;
-    }
+   nav{
+       background-color: var(--couleur-secondaire);
+       position: fixed;
+   }
 
-    .nav-item{
-        
-        color: var(--couleur-secondaire);
-    }
- .navbar-toggler-icon{
-    border: 2px solid var(--couleur-semi-blanc);
-    border-radius: 5px;
-    background-color: var(--couleur-primaire);
-    
+   .nav-item{
+       
+       color: var(--couleur-secondaire);
+   }
+.navbar-toggler-icon{
+   border: 2px solid var(--couleur-semi-blanc);
+   border-radius: 5px;
+   background-color: var(--couleur-primaire);
+   
 }
 
-    img{
-        width: 105px;
+   img{
+       width: 105px;
 
-    }
+   }
 
-    .chat{
-        width: 50px;
-    }
+   .chat{
+       width: 50px;
+   }
 
-    .navbar-brand{
-        color: var(--couleur-semi-blanc);
-        font-size: 25px;
-        font-family: var(--font-prompt);
-        text-align: 50px;
-    }
+   .navbar-brand{
+       color: var(--couleur-semi-blanc);
+       font-size: 25px;
+       font-family: var(--font-prompt);
+       text-align: 50px;
+   }
 
- footer nav{
-    background-color:  #3f4978;
-    margin-top: 1rem;
-    vertical-align: 1rem;
- }
+footer nav{
+   background-color:  #3f4978;
+   margin-top: 1rem;
+   vertical-align: 1rem;
+}
 
- footer img{
-    width: 250px;
- }
+footer img{
+   width: 250px;
+}
 
- footer p{
-    color: #EDF6F9;
- }
+footer p{
+   color: #EDF6F9;
+}
 
- input{
-    width: 95%;
-    margin-top: 101px;
-    border: 2px solid var(--couleur-secondaire);
-    border-radius: 5px;
-    background-color: var(--couleur-semi-blanc);
- }
-
- 
- input::placeholder{
-    width: 90%;
-    color: var(--couleur-secondaire);
- }
-
- 
-
- svg{
-    color: var(--couleur-secondaire);
- }
-
- button{
-    width:20%;
-    margin: 5px;
-    margin-top: 25px;
- }
- 
- .btn-primary{
-    background-color: var(--couleur-rose-foncé);
-    border: none;
-    font-family: var(--font-prompt);
-    font-weight: bold;
-    color: var(--couleur-semi-blanc);
- }
-
- .btn-primary:hover{
-    background-color: var(--couleur-rose-pale);
-    border: none;
-    
- }
-
- div .boutons {
-    overflow: hidden;
- }
-
- main{
-   height: 300vh;
- }
+input{
+   width: 95%;
+   margin-top: 101px;
+   border: 2px solid var(--couleur-secondaire);
+   border-radius: 5px;
+   background-color: var(--couleur-semi-blanc);
+}
 
 
- #scrollspyHeading1{
-    background-color: var(--couleur-primaire);
- }
+input::placeholder{
+   width: 90%;
+   color: var(--couleur-secondaire);
+}
 
- body {
+
+
+svg{
+   color: var(--couleur-secondaire);
+}
+
+button{
+   width:20%;
+   margin: 5px;
+   margin-top: 25px;
+}
+
+.btn-primary{
+   background-color: var(--couleur-rose-foncé);
+   border: none;
+   font-family: var(--font-prompt);
+   font-weight: bold;
+   color: var(--couleur-semi-blanc);
+}
+
+.btn-primary:hover{
+   background-color: var(--couleur-rose-pale);
+   border: none;
+   
+}
+
+div .boutons {
+   overflow: hidden;
+}
+
+main{
+  height: 300vh;
+  
+}
+
+#scrollspyHeading1{
    background-color: var(--couleur-primaire);
- }
+}
+
+body {
+  background-color: var(--couleur-primaire);
+}
 
 h5{
-   font-size: 15px;
+  font-size: 15px;
 }
 
 p{
-   font-size: 12px;
+  font-size: 12px;
 }
 
-.horaire{
-   font-size: 10px;
+
+
+.Louis{
+  border-radius: 50px;
+  width: 50px;
+  margin-top: 15px;
 }
 
-.card-body{
-   width: 140%; 
-   
+
+
+#vedette{
+  width: 200%;
 }
+
