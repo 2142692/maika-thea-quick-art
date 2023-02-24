@@ -28,6 +28,10 @@ h3 {
   font-weight: bolder;
 }
 
+h4 {
+  font-family: var(--font-raleway);
+}
+
 main {
   background-color: var(--couleur-semi-blanc);
 }
@@ -132,7 +136,7 @@ main {
 }
 
 main {
-  height: 200vh;
+  height: 300vh;
 }
 
 iframe {
@@ -185,7 +189,6 @@ iframe {
 }
 
 .container-fluid {
-  background-color: var(--couleur-rose-pale);
   margin: 18px;
   padding-bottom: 35px;
 }
@@ -201,6 +204,20 @@ iframe {
 }
 
 #scrollspyHeading4 {
-  margin-bottom: 500px;
+  margin-bottom: 80px;
   font-weight: bolder;
+}
+
+.containerAccordeon {
+  margin: 20px;
+}
+
+.containerInfolettre {
+  margin-right: 100px;
+  margin-top: 100px;
+  background-color: var(--couleur-rose-pale);
+}
+
+.col-mb-3 {
+  margin-bottom: 500px;
 }
