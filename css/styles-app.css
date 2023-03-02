@@ -43,7 +43,7 @@
 
 footer nav{
    background-color:  #3f4978;
-   margin-top: 1rem;
+   margin-top: 27rem;
    vertical-align: 1rem;
 }
 
@@ -109,7 +109,7 @@ main{
 }
 
 body {
-  overflow-x: hidden;
+overflow-x: hidden;
   background-color: var(--couleur-primaire);
 }
 
@@ -159,3 +159,37 @@ p{
    max-height: 560px;
 }
 
+#autres{
+   width: 100%;
+}
+
+#autres .card-img-top{
+height: 42vh;
+min-height: 200px;
+object-fit: cover;
+
+object-position: 100% 50%;
+}
+
+#autres .card{
+ max-width: 98%; 
+ 
+}
+
+.Robin{
+   border-radius: 50px;
+   width: 50px;
+   margin-top: 15px;
+ }
+
+ .Robert{
+   border-radius: 50px;
+   width: 50px;
+   margin-top: 15px;
+ }
+
+ .Joon{
+   border-radius: 50px;
+   width: 50px;
+   margin-top: 15px;
+ }
