@@ -118,9 +118,7 @@ main {
   background-color: #fff;
 }
 
-
-
-.app iframe{
+.app iframe {
   width: 455px;
   height: 100%;
   aspect-ratio: 5/9;
@@ -214,13 +212,9 @@ iframe {
   margin: 20px;
 }
 
-
-.container-info{
+.container-info {
   background-color: #006d7777;
- 
 }
-
-
 
 .containerInfolettre {
   background-image: url("https://images.unsplash.com/photo-1578985824626-945a6f546304?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
@@ -237,6 +231,18 @@ iframe {
   margin-bottom: 500px;
 }
 
-.modal-body p{
+.modal-body p {
   color: black;
+}
+
+.scrollspyHeading5 {
+  color: #fff;
+}
+
+.InfoTexte {
+  color: #fff;
+}
+
+#exampleModalLabel {
+  color: #006d77;
 }
