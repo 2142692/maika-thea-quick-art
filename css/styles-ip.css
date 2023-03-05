@@ -231,7 +231,7 @@ iframe {
   margin-bottom: 500px;
 }
 
-.modal-body p {
+.modal-dialog p {
   color: black;
 }
 
@@ -245,4 +245,9 @@ iframe {
 
 #exampleModalLabel {
   color: #006d77;
+}
+
+.control-label {
+  font-family: var(--font-prompt);
+  color: var(--couleur-secondaire);
 }
