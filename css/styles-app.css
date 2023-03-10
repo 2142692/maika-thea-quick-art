@@ -99,6 +99,10 @@ div .boutons {
    overflow: hidden;
 }
 
+.boutons li {
+   display: inline;
+}
+
 main{
   height: 300vh;
   
