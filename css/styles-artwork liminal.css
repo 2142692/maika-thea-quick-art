@@ -1,0 +1,171 @@
+:root{
+   --couleur-primaire:#83C5BE;
+   --couleur-secondaire:#006D77;
+   --couleur-semi-blanc:#EDF6F9;
+   --couleur-rose-pale:#FFDDD2;
+   --couleur-rose-foncé:#E29578;
+   --font-raleway: 'Raleway', sans-serif;
+   --font-prompt: 'Prompt', sans-serif;
+   }
+   
+ 
+   nav{
+       background-color: #006d7700;
+       position: fixed;
+   }
+
+   .nav-item{
+       
+       color: var(--couleur-secondaire);
+   }
+.flech svg{
+   border: 2px solid var(--couleur-semi-blanc);
+   border-radius: 5px;
+   background-color: var(--couleur-primaire);
+   color: black;
+  
+}
+
+
+div .coeur{
+   background-color: var(--couleur-semi-blanc);
+   border: 5px solid var(--couleur-semi-blanc);
+   border-radius: 20px;
+   padding: 5px;
+  
+}
+
+.coeur svg{
+   color: var(--couleur-rose-foncé);
+   width: 22px;
+}
+
+.Anima{
+   width: 100%;
+}
+
+.card{
+   width: 90vw;
+}
+   
+
+ .card-img-top{
+   height: 42vh;
+   min-height: 200px;
+   object-fit: cover;
+   
+   object-position: 50% 0%;
+   }
+
+   h3{
+      background-color: var(--couleur-secondaire);
+      color: var(--couleur-semi-blanc);
+      width: 90%;
+      border: 5px solid #006D77;
+      border-radius: 5px;
+   }
+
+   .container-artistes{
+      z-index:1;
+      border-radius: 5px;
+      background-color: var(--couleur-semi-blanc);
+      width: 100vw;
+     margin-top: 416px;
+     height: 170vh;
+   }
+
+ 
+
+
+
+input{
+   width: 79vw;
+ 
+   border: 2px solid var(--couleur-secondaire);
+   border-radius: 5px;
+   background-color: var(--couleur-semi-blanc);
+}
+
+
+input::placeholder{
+   
+   color: var(--couleur-secondaire);
+}
+
+
+
+svg{
+   color: var(--couleur-secondaire);
+}
+
+button{
+   width:30%;
+   margin: 5px;
+   margin-top: 25px;
+   color: var(--couleur-semi-blanc);
+}
+
+.btn-primary{
+   background-color: var(--couleur-rose-foncé);
+   border: none;
+   font-family: var(--font-prompt);
+   font-weight: bold;
+   
+}
+
+.btn-primary:hover{
+   background-color: var(--couleur-rose-pale);
+   border: none;
+   
+}
+
+
+
+main{
+  height: 100vh;
+
+}
+
+
+body {
+overflow-x: hidden;
+  background-color: var(--couleur-semi-blanc);
+  background-image: url("../../assets/artworks/louis-philippe-rondeau-liminal.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+.accordion-item{
+   width: 95%;
+   background-color: var(--couleur-semi-blanc);
+   margin-top: 19rem;
+   
+}
+
+.accordion-button{
+   width: 100%;
+   background-color: var(--couleur-rose-foncé);
+   color: var(--couleur-semi-blanc);
+}
+
+.accordion-header{
+   
+  color: var(--couleur-semi-blanc);
+
+}
+
+footer {
+   background-color:  #3f4978;
+   margin-top: 1rem;
+   vertical-align: 1rem;
+}
+
+footer img{
+   width: 250px;
+}
+
+footer p{
+   color: #EDF6F9;
+}
+
