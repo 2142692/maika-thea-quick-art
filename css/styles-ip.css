@@ -252,3 +252,9 @@ iframe {
   font-family: var(--font-prompt);
   color: var(--couleur-secondaire);
 }
+
+#scrollspyHeadingSavoirPlus {
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: var(--couleur-semi-blanc);
+}
