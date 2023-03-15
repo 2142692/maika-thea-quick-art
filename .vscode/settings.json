@@ -1,0 +1,23 @@
+{
+    
+    "liveSassCompile.settings.includeItems": [],
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css",
+           
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    
+}
