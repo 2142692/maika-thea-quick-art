@@ -8,6 +8,9 @@
   --font-prompt: "Prompt", sans-serif;
 }
 
+html {
+  background-color: #fff;
+}
 h1 {
   font-size: 60px;
   font-family: var(--font-prompt);
@@ -30,10 +33,6 @@ h3 {
 
 h4 {
   font-family: var(--font-raleway);
-}
-
-main {
-  background-color: var(--couleur-semi-blanc);
 }
 
 .navbar-brand {
@@ -114,10 +113,6 @@ svg {
   color: var(--couleur-secondaire);
 }
 
-main {
-  background-color: #fff;
-}
-
 .app iframe {
   width: 455px;
   height: 100%;
@@ -133,6 +128,7 @@ main {
 
 .containerApp {
   margin: 100px;
+  padding-bottom: 100px;
 }
 
 main {
@@ -152,12 +148,14 @@ iframe {
 #scrollspyHeading2 {
   margin-top: 50px;
   margin: 50px;
+  background-color: #fff;
 }
 
 #scrollspyHeading3 {
   margin: 50px;
   font-family: var(--font-prompt);
   font-size: 45px;
+  background-color: #fff;
 }
 
 .nav-link {
@@ -167,6 +165,7 @@ iframe {
 .col-lg-3 {
   margin-top: 7px;
   margin-right: 7px;
+  background-color: #fff;
 }
 
 .card {
@@ -181,22 +180,26 @@ iframe {
   margin: 50px;
   font-family: var(--font-prompt);
   font-size: 25px;
+  background-color: #fff;
 }
 
 #FonctionnalitesDescription {
   margin: 50px;
   font-family: var(--font-prompt);
   font-size: 25px;
+  background-color: #fff;
 }
 
 .container-fluid {
   margin: 18px;
   padding-bottom: 35px;
+  background-color: #fff;
 }
 
 .container-fluid2 {
   margin: 18px;
   padding-bottom: 100px;
+  background-color: #fff;
 }
 
 .card-body {
@@ -205,7 +208,8 @@ iframe {
 
 #scrollspyHeading4 {
   margin-bottom: 80px;
-
+  padding-top: 25px;
+  padding-left: 25px;
   font-weight: bolder;
 }
 
@@ -238,6 +242,10 @@ iframe {
 
 .scrollspyHeading5 {
   color: #fff;
+}
+
+.containerInfolettre {
+  margin-bottom: 100px;
 }
 
 .InfoTexte {
@@ -275,4 +283,12 @@ iframe {
 
 .swiper-slide {
   display: inline;
+}
+
+.scrollspy {
+  background-color: #fff;
+}
+
+.Fonctionnalite {
+  background-color: #fff;
 }
