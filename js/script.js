@@ -6,7 +6,7 @@ const swiper = new Swiper(".swiper", {
   effect: "flip",
 });*/
 
-let slideIndex = 1;
+/*let slideIndex = 1;
 showSlides(slideIndex),
   {
     slidePerView: 1,
@@ -56,4 +56,36 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
-}
+}*/
+
+const swiper = new Swiper(".swiper-screenshots", {
+  loop: true, //loop
+  slidesPerView: 2,
+  centeredSlides: true,
+  spaceBetween: 20,
+  autoplay: {
+    //autoplay
+    delay: 2000,
+  },
+  pagination: {
+    //pagination(dots)
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    //navigation(arrows)
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+import Swiper, { Navigation, Pagination } from "swiper";
+// import Swiper and modules styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+// init Swiper:
+const Swiper = new Swiper(".swiper", {
+  // configure Swiper to use modules
+  modules: [Navigation, Pagination],
+});

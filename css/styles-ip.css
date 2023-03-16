@@ -310,7 +310,7 @@ iframe {
   margin-left: 2px;
 }
 
-* {
+/** {
   box-sizing: border-box;
 }
 
@@ -321,7 +321,7 @@ iframe {
 .cursor {
   cursor: pointer;
 }
-
+}/
 .prev,
 .next {
   cursor: pointer;
@@ -344,7 +344,7 @@ iframe {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/*.prev:hover,
 .next:hover {
   background-color: var(--couleur-rose-foncé);
 }
@@ -356,7 +356,7 @@ iframe {
 }
 
 /* Six columns side by side */
-.column {
+/*.column {
   float: left;
   width: 16.66%;
 }
@@ -377,4 +377,19 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-self: start;
+}*/
+
+.sample-slider {
+  width: 70%;
+}
+.sample-slider img {
+  width: 100%;
+}
+.swiper-wrapper {
+  padding-left: 250px;
+  padding-top: 50px;
+}
+.swiper-slide {
+  width: 100%;
+  height: 500px;
 }
