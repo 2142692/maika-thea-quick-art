@@ -370,4 +370,11 @@ iframe {
   border-color: #fff;
   border-radius: 5%;
   box-shadow: 3px 3px 15px var(--couleur-secondaire);
+  width: 20%;
+}
+
+.mySlides {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
 }

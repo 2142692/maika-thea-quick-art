@@ -7,7 +7,24 @@ const swiper = new Swiper(".swiper", {
 });*/
 
 let slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex),
+  {
+    slidePerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 1500,
+    },
+    breakpoint: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+    },
+  };
 
 // Next/previous controls
 function plusSlides(n) {
