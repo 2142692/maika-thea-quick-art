@@ -36,7 +36,7 @@
     <nav id="navbar-example2" class="navbar navbar-light fixed-top">
       <div class="container-fluid">
           <div class="row">
-            <div class="col">
+            <div class="col-0">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -68,7 +68,7 @@
         
        
     <div class="row justify-content-center">
-          <div class="col">
+          <div class="col-0">
         <a class="navbar-brand" href="#scrollspyHeading1">
   <img src="../../assets/artworks/pinceau.png">QuickArt
       
@@ -90,29 +90,31 @@
 
 
      
-     <div data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light rounded-2" tabindex="0">
+     <div data-bs-target="#navbar-example2"  data-bs-smooth-scroll="true" class="scrollspy-example bg-light rounded-2" tabindex="0">
     <div id="scrollspyHeading1">
       <div class="container">
+        <section>
         <div class="row justify-content-end">
           <div class="col-12 col-lx-6">
-            <div class="cherche">
+            
               <form>
               <i class="bi bi-search"></i>
-        <input type="text" format="Icon font"
-placeholder="Rechercher une oeuvre, un artiste..."></form>
-            </div>
+        <input class="form-control" format="Icon font"
+placeholder="      Rechercher une oeuvre, un artiste..."></form>
+            
           </div>
-        
+        </section>
          
 <!--balise section-->
         
            
 
 <!-- Slider main container -->
+<section>
 <div class="swiper-filters">
 <div class="swiper">
-  <div class="swiper-wrapper">
-  <div class="col-12 mt-3 me-4">
+  <div class="swiper-wrapper ">
+ 
     
       <!-- Slides -->
       <div class="swiper-slide"><button class="btn btn-primary" type="submit">Toutes</button> </div>
@@ -122,7 +124,7 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
       <div class="swiper-slide"><button class="btn btn-primary" type="submit">AR/VR</button> </div>
       <div class="swiper-slide"><button class="btn btn-primary" type="submit">Projections/Immersion</button> </div>
      
-    </div>
+   
   
 </div>
 
@@ -131,14 +133,14 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
   
     
       </div>
+    </section>
         </div>
         </div>
       </div>
-    </div>
-     </div>
-
+    
+    
      <!-- En vedette -->
-     <div id=vedette>
+     <div id="vedette">
       <h2 class="ms-3">En vedette</h2>
      <div class="container-fluid">
               <div class="row ">
@@ -150,31 +152,26 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <div class="card-body">
                       <h5 class="card-title">Anima-capa</h5>
                       <p class="card-text">Par Anima-capa</p>
-                      <div class="container-horaire">
+                   
                         <div class="row">
                          
-                        <div class="col-8"> 
+                        <div class="col-7"> 
                           
                           <p class="card-text">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg> 20 avril 2023</p>
+                            <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
                         </div>
                       
                           
                         
-                        <div class="col-4">
-                          <p class="text-end">
+                        <div class="col-5">
+                          <p class="text-end me-2">
                           
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg> 20h</p>
+                            <i class="bi bi-clock"></i> 20h</p>
                       </div>
                       </div>
-                      </div>
+                     
 
-                      <div class="container-image">
+                    
                         <div class="row">
                       <div class="col-4">
                         
@@ -188,13 +185,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                       <p class="text-end ms-2 mt-4">
                         
                        Plus d'info
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                      </svg></p>
+                       <i class="bi bi-chevron-right"></i></p>
                     
                     </div>
                         </div>
-                    </div>
+                    
                     </div>
                   </a>
                 </div>
@@ -209,32 +204,27 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <div class="card-body">
                       <h5 class="card-title">Marpi-mass</h5>
                       <p class="card-text">Par mass migrations</p>
-                      <div class="container-horaire">
+                    
                         <div class="row">
                          
-                        <div class="col-8"> 
+                        <div class="col-7"> 
                           
                           <p class="card-text">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg> 20 avril 2023</p>
+                            <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
                         </div>
                       
                           
                         
-                        <div class="col-4">
-                          <p class="text-end">
+                        <div class="col-5">
+                          <p class="text-end me-2">
                           
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg> 20h</p>
+                            <i class="bi bi-clock"></i> 20h</p>
                       </div>
                       </div>
-                      </div>
+                   
 
                     
-                    <div class="container-image">
+                
                       <div class="row">
                     <div class="col-4">
                       
@@ -248,13 +238,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <p class="text-end ms-2 mt-4">
                       
                      Plus d'info
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg></p>
+                     <i class="bi bi-chevron-right"></i></p>
                   
                   </div>
                       </div>
-                  </div>
+                  
                     </div>
                   </a>
                 </div>
@@ -269,31 +257,26 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <div class="card-body">
                       <h5 class="card-title">Liminal</h5>
                       <p class="card-text">Par Louis Philippe Rondeau</p>
-                      <div class="container-horaire">
+                     
                         <div class="row">
                          
-                        <div class="col-8"> 
+                        <div class="col-7"> 
                           
                           <p class="card-text">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg> 20 avril 2023</p>
+                            <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
                         </div>
                       
                           
                         
-                        <div class="col-4">
-                          <p class="text-end">
+                        <div class="col-5">
+                          <p class="text-end me-2">
                           
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg> 20h</p>
+                            <i class="bi bi-clock"></i> 20h</p>
                       </div>
                       </div>
-                      </div>
+                      
 
-                    <div class="container-image">
+                   
                       <div class="row">
                     <div class="col-4">
                       
@@ -307,13 +290,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <p class="text-end ms-2 mt-4">
                       
                      Plus d'info
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg></p>
+                     <i class="bi bi-chevron-right"></i></p>
                   
                   </div>
                       </div>
-                  </div>
+                  
                     
                     </div>
                   </a>
@@ -327,7 +308,7 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
           
 <!-- Autres -->
 
-          <div id=autres>
+          <div id="autres">
                 <h2 class="ms-3 mt-4">Autres</h2>
                 <div class="container-fluid">
                   <div class="row ">
@@ -337,34 +318,29 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                   <div class="liminal">
                   <a class="card ms-1">
                     <img src="../../assets/artworks/joon-y-moon-inside-coreia-do-sul.jpg" class="card-img-top">
-                    <div class="card-body">
+                    <div class="card-body p-2">
                       <h5 class="card-title">Inside</h5>
                       <p class="card-text">Par Louis Joon Y Moon</p>
-                      <div class="container-horaire">
+                    
                         <div class="row">
                          
                         <div class="col-8"> 
                           
                           <p class="card-text">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-                        </svg> 20 avril 2023</p>
+                            <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
                         </div>
                       
                           
                         
                         <div class="col-4">
-                          <p class="text-end">
+                          <p class="text-end me-2">
                           
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg> 20h</p>
+                            <i class="bi bi-clock"></i> 20h</p>
                       </div>
                       </div>
-                      </div>
+                      
 
-                    <div class="container-image">
+                    
                       <div class="row">
                     <div class="col-4">
                       
@@ -378,13 +354,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                     <p class="text-end ms-2 mt-4">
                       
                      Plus d'info
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg></p>
+                     <i class="bi bi-chevron-right"></i></p>
                   
                   </div>
                       </div>
-                  </div>
+                 
                     
                     </div>
                   </a>
@@ -400,34 +374,29 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                 <div class="motosc">
                 <a class="card ms-1 mt-3">
                   <img src="../../assets/artworks/robert-mathy-motosc.jpg" class="card-img-top">
-                  <div class="card-body">
+                  <div class="card-body p-2">
                     <h5 class="card-title">Motosc</h5>
                     <p class="card-text">Par Robert Mathy</p>
-                    <div class="container-horaire">
+                   
                       <div class="row">
                        
                       <div class="col-8"> 
                         
                         <p class="card-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-                      </svg> 20 avril 2023</p>
+                          <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
                       </div>
                     
                         
                       
                       <div class="col-4">
-                        <p class="text-end">
+                        <p class="text-end me-2">
                         
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                      </svg> 20h</p>
+                          <i class="bi bi-clock"></i> 20h</p>
                     </div>
                     </div>
-                    </div>
+                   
 
-                  <div class="container-image">
+                 
                     <div class="row">
                   <div class="col-4">
                     
@@ -441,13 +410,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
                   <p class="text-end ms-2 mt-4">
                     
                    Plus d'info
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                  </svg></p>
+                   <i class="bi bi-chevron-right"></i></p>
                 
                 </div>
                     </div>
-                </div>
+                
                   
                   </div>
                 </a>
@@ -459,34 +426,29 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
   <div class="Quantum-jungle">
   <a class="card ms-1 mt-3">
     <img src="../../assets/artworks/robin-baumgarten-quantum-jungle.jpg" class="card-img-top">
-    <div class="card-body">
+    <div class="card-body  p-2">
       <h5 class="card-title">Quantum-jungle</h5>
       <p class="card-text">Par Robin Baumgarten</p>
-      <div class="container-horaire">
+     
         <div class="row">
          
         <div class="col-8"> 
           
           <p class="card-text">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
-          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
-        </svg> 20 avril 2023</p>
+            <i class="bi bi-calendar-fill"></i> 20 avril 2023</p>
         </div>
       
           
         
         <div class="col-4">
-          <p class="text-end">
+          <p class="text-end me-2">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-        </svg> 20h</p>
+            <i class="bi bi-clock"></i> 20h</p>
       </div>
       </div>
-      </div>
+     
 
-    <div class="container-image">
+   
       <div class="row">
     <div class="col-4">
       
@@ -500,13 +462,11 @@ placeholder="Rechercher une oeuvre, un artiste..."></form>
     <p class="text-end ms-2 mt-4">
       
      Plus d'info
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-    </svg></p>
+     <i class="bi bi-chevron-right"></i></p>
   
   </div>
       </div>
-  </div>
+  
     
     </div>
   </a>

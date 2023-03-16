@@ -11,7 +11,7 @@
  
    nav{
        background-color: var(--couleur-secondaire);
-       position: fixed;
+       
    }
 
    .nav-item{
@@ -25,6 +25,23 @@
    
 }
 
+.flech .bi-chevron-left{
+   border: 2px solid var(--couleur-semi-blanc);
+   border-radius: 5px;
+   background-color: var(--couleur-primaire);
+   color: black;
+
+}
+
+.coeur .bi-heart-fill{
+   color: var(--couleur-rose-foncé);
+  
+}
+
+main{
+padding-top: 100px;
+}
+
    img{
        width: 105px;
 
@@ -32,6 +49,7 @@
 
    .chat{
        width: 50px;
+       
    }
 
    .navbar-brand{
@@ -46,7 +64,7 @@ footer {
 }
 
 footer img{
-   width: 250px;
+   min-width: 200px;
 }
 
 footer p{
@@ -54,27 +72,32 @@ footer p{
   
 }
 
-input{
-   width: 95%;
-   margin-top: 101px;
-   border: 2px solid var(--couleur-secondaire);
-   border-radius: 5px;
-   background-color: var(--couleur-semi-blanc);
+
+form{
+   position: relative;
 }
 
 
-input::placeholder{
-   width: 90%;
+form i{
+   position: absolute; top: 8px; left: 13px; z-index: 1000;
+}
+
+ .form-control::placeholder{
+  
    color: var(--couleur-secondaire);
+   
 }
+
+.form-control{
+   border: 2px solid var(--couleur-secondaire); border-radius: 5px; background-color: var(--couleur-semi-blanc);
+}
+
 
 i{
    color: var(--couleur-secondaire);
+  
 }
 
-svg{
-   color: var(--couleur-secondaire);
-}
 
 
 
@@ -93,16 +116,15 @@ svg{
 }
 
 
-.swiper {
-   width: 180vw;
-   
- }
+.swiper-filters .swiper-wrapper {
 
- .swiper-slide{
+   width: 280px;
   
-   display: inline;
  }
 
+.swiper-slide{
+   margin: 10px;
+}
 
 #scrollspyHeading1{
    background-color: var(--couleur-primaire);
@@ -117,46 +139,54 @@ h5{
   font-size: 15px;
 }
 
-p{
-  font-size: 12px;
-}
 
 
 
 .Louis{
   border-radius: 50px;
   width: 50px;
-  margin-top: 15px;
+ 
 }
 
 .Anima{
    border-radius: 50px;
   width: 50px;
  height: 50px;
-  margin-top: 15px;
-  
 }
 
 .marpi{
    border-radius: 50px;
   width: 50px;
   height: 50px;
-  margin-top: 15px;
+ 
 }
 
 #vedette{
-  width: 140%;
+  width: 140vw;
 }
 
 #vedette .card{
-   min-width: 200px;
-  margin-left: 50px;
+   max-width: 200px;
+
   
 }
 
+ .card-body{
+padding: 6px;
+  
+}
+
+.card-body p{
+   font-size: 59%;
+}
+
 #vedette .card-img-top{
-   min-width: 200px;
-   max-height: 560px;
+   
+   max-height: 143px;
+   height: 20vh;
+   object-fit: cover;
+
+object-position: 50% 0%;
 }
 
 #autres{
@@ -185,20 +215,32 @@ a{
    background-color: var(--couleur-semi-blanc);
 }
 
+
+
 .Robin{
    border-radius: 50px;
    width: 50px;
-   margin-top: 15px;
+
  }
 
  .Robert{
    border-radius: 50px;
    width: 50px;
-   margin-top: 15px;
+
  }
 
  .Joon{
    border-radius: 50px;
    width: 50px;
-   margin-top: 15px;
+
+ }
+
+ 
+ .image-font{
+   width: 100%;
+   height: 50vh;
+ }
+
+#navbar-example1{
+   background-color: #006d7700;
  }
