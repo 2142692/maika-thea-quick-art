@@ -106,7 +106,8 @@ i{
    border: none;
    font-family: var(--font-prompt);
    font-weight: bold;
-   color: var(--couleur-semi-blanc);
+   color: var(--couleur-semi-blanc); 
+
 }
 
 .btn-primary:hover{
@@ -118,13 +119,10 @@ i{
 
 .swiper-filters .swiper-wrapper {
 
-   width: 280px;
+   width: 80px;
   
  }
 
-.swiper-slide{
-   margin: 10px;
-}
 
 #scrollspyHeading1{
    background-color: var(--couleur-primaire);
