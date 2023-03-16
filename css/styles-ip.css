@@ -384,6 +384,9 @@ iframe {
 }
 .sample-slider img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 .swiper-wrapper {
   padding-left: 250px;
@@ -392,4 +395,18 @@ iframe {
 .swiper-slide {
   width: 100%;
   height: 500px;
+}
+
+.swiper {
+  width: 100vw;
+  height: 250vh;
+}
+.imgSlide {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 100% 100%;
+  margin-right: 200px;
+  overflow-x: scroll;
+  overflow-x: hidden;
 }
