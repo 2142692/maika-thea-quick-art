@@ -156,7 +156,7 @@
           <h6 id="FonctionnalitesDescription">
             Voici les fonctionnalité de la galerie QuickArt offre!
           </h6>
-          <div class="row justify-content-center">
+          <div class="row justify-content-cente">
             <div class="col-6 col-sm-4">
               <div class="card">
                 <div class="card-body">
@@ -238,61 +238,45 @@
 </section>
 
 <!-- Voir plus -->
-<section class="container-fluid2">
-  <div class="row justify-content-center ms-8">
-
-<!-- Swiper -->
-<!-- Slider main container -->
-<div class="swiper">
+<section class="container-fluid3">
   <h4 id="scrollspyHeadingSavoirPlus">Prévisualisez l'interface de l'appli
   </h4>
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <div class="image-slide">
-          <img src="./../assets/app_images/artworkPS_haut.jpg">
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="image-slide">
-          <img src="./../assets/app_images/formulairePS.jpg">
-        </div>
-      </div>
-      <div class="swiper-slide"><div class="image-slide">
-        <img src="./../assets/app_images/haut_de_pagePS.jpg">
-      </div>
-    </div>
-    <div class="swiper-slide"><div class="image-slide">
-      <img src="./../assets/app_images/modalPS.jpg">
-    </div>
-  </div>
-  <div class="swiper-slide"><div class="image-slide">
-    <img src="./../assets/app_images/pied_de_pagePS.JPG">
-  </div>
-</div>
-
-
-
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
-
-  
-
+  <div class="row justify-content-center ms-8">
+     
+<div class="container">
  
-</div>
+  <div class="mySlides text-center">
+      <img class="imgSlide1" src="/assets/app_images/artworkPS_haut.jpg" style="width: 20%">
+  </div>
+  <div class="mySlides text-center">  
+      <img class="imgSlide2" src="/assets/app_images/formulairePS.jpg" style="width:20%">
+  </div>
+  <div class="mySlides text-center">  
+      <img class="imgSlide3" src="/assets/app_images/haut_de_pagePS.jpg" style="width:20%">
+  </div>
+  <div class="mySlides text-center">
+      <img class="imgSlide4" src="/assets/app_images/modalPS.jpg" style="width:20%">
+  </div>
+  <div class="mySlides text-center">  
+      <img class="imgSlide5" src="/assets/app_images/pied_de_pagePS.JPG" style="width:20%">
+  </div>
 
+
+
+  <!-- boutton gauche/droite -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+</div>
 </div>
 </section>
+
+
+
+
+
+
+
 
 
       
@@ -443,7 +427,7 @@
           class="scrollspy-example bg-light rounded-2"
           tabindex="0"
         >
-          <div class="containerAccordeon">
+          <div class="containerAccordeon p-5">
             <div class="row justify-content-center">
               <div class="col-12">
                 <h2 id="scrollspyHeading4">FAQ - Foire aux questions</h2>
@@ -706,5 +690,6 @@
 
 
     </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>
