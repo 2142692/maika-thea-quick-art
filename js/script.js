@@ -58,7 +58,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }*/
 
-const swiper = new Swiper(".swiper-screenshots", {
+/*const swiper = new Swiper(".swiper-screenshots", {
   loop: true, //loop
   direction: "horizontal",
   slidesPerView: 2,
@@ -101,4 +101,31 @@ import "swiper/css/pagination";
 const Swiper = new Swiper(".swiper", {
   // configure Swiper to use modules
   modules: [Navigation, Pagination],
+});*/
+
+var swiper = new Swiper(".swiper-screenshots", {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 1500,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    // when window width is >= 320px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },},
+  
 });
