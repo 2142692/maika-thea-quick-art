@@ -406,7 +406,4 @@ iframe {
   height: 100%;
   object-fit: contain;
   object-position: 100% 100%;
-  margin-right: 200px;
-  overflow-x: scroll;
-  overflow-x: hidden;
 }
