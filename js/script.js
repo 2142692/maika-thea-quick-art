@@ -1,24 +1,24 @@
-var swipers = new Swipers('.swiper-filters', {
-
-direction: 'horizontal',
-loop: true,
+var swipers = new Swipers(".swiper-filters", {
+  direction: "horizontal",
+  loop: true,
   slidesPerView: 1,
- spaceBetween: 30,
- autoplay: {
-   delay: 1500,
- },
+  spaceBetween: 30,
+  autoplay: {
+    delay: 1500,
+  },
   breakpoints: {
     // when window width is >= 320px
     768: {
       slidesPerView: 2,
-      spaceBetween: 20
+      spaceBetween: 20,
     },
     // when window width is >= 480px
     992: {
       slidesPerView: 3,
-      spaceBetween: 30
-    },},});
-
+      spaceBetween: 30,
+    },
+  },
+});
 
 /*let slideIndex = 1;
 showSlides(slideIndex),
@@ -117,8 +117,8 @@ const Swiper = new Swiper(".swiper", {
   modules: [Navigation, Pagination],
 });*/
 
-var swiper = new Swiper(".swiper-screenshots", {
-  direction: 'horizontal',
+var swiper = new swiper(".swiper-screenshots", {
+  direction: "horizontal",
   loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
@@ -131,15 +131,14 @@ var swiper = new Swiper(".swiper-screenshots", {
   },
 
   breakpoints: {
-    // when window width is >= 320px
-    768: {
+    700: {
       slidesPerView: 2,
-      spaceBetween: 20
+      spaceBetween: 20,
     },
-    // when window width is >= 480px
-    992: {
+
+    1200: {
       slidesPerView: 3,
-      spaceBetween: 30
-    },},
-  
+      spaceBetween: 30,
+    },
+  },
 });

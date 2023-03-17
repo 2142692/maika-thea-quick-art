@@ -52,6 +52,7 @@ nav {
 
 img {
   width: 105px;
+  object-fit: cover;
 }
 
 .navbar-toggler-icon {
@@ -395,10 +396,7 @@ iframe {
 .swiper-slide {
   width: 100%;
   height: 500px;
-  
 }
-
-
 
 section .swiper {
   width: 98vw;
@@ -406,58 +404,45 @@ section .swiper {
 }
 img .imgSlide {
   width: 100px;
- 
+
   height: 100%;
 
- 
   margin-right: 200px;
   overflow-x: scroll;
   overflow-x: hidden;
-object-fit: fill;
-
-
+  object-fit: fill;
 
   object-fit: contain;
   object-position: 100% 100%;
-
 }
-
 
 .imgSlide {
   width: 350px;
 
   height: 500px;
 
- margin-top: 750px;
+  margin-top: 750px;
   overflow-x: scroll;
   overflow-x: hidden;
-object-fit: fill;
-
-
+  object-fit: fill;
 }
 
-.swiper-screenshots .swiper-wrapper{
-width: 80px;
+.swiper-screenshots .swiper-wrapper {
+  width: 80px;
 }
 
-
-
-
- .no2{
-margin-left: 300px;
+.no2 {
+  margin-left: 300px;
 }
 
-
-.no3{
+.no3 {
   margin-left: 600px;
 }
 
-
-.no4{
-  margin-left:1200px;
+.no4 {
+  margin-left: 1200px;
 }
 
-
-.no5{
+.no5 {
   margin-left: 1500px;
 }
