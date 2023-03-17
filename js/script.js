@@ -1,10 +1,24 @@
-/*var swiper = new Swiper(".swiper-filters", {});*/
-/*const mySwiperOne = new Swiper(swiperContainer, parameters);
-const swiper = new Swiper(".swiper", {
-  direction: "vertical",
-  grabCursor: true,
-  effect: "flip",
-});*/
+var swipers = new Swipers('.swiper-filters', {
+
+direction: 'horizontal',
+loop: true,
+  slidesPerView: 1,
+ spaceBetween: 30,
+ autoplay: {
+   delay: 1500,
+ },
+  breakpoints: {
+    // when window width is >= 320px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },},});
+
 
 /*let slideIndex = 1;
 showSlides(slideIndex),

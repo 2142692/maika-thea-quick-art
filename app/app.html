@@ -19,7 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
   
   <link rel="stylesheet" href="css/boostrap.css">
@@ -111,28 +111,34 @@ placeholder="      Rechercher une oeuvre, un artiste..."></form>
 
 <!-- Slider main container -->
 <section>
-<div class="swiper-filters">
+  <swiper-container class="mySwiper swiper-filters" navigation="true">
+
 <div class="swiper">
   <div class="swiper-wrapper">
 
     
       <!-- Slides -->
-      <div class="swiper-slide"><button class="btn btn-primary" type="submit">Toutes</button> </div>
-      <div class="swiper-slide me-5"><button class="btn btn-primary" type="submit">Installations/interactives</button></div>
-      <div class="swiper-slide ms-3 me-2"><button class="btn btn-primary" type="submit">Concert</button> </div>
-      <div class="swiper-slide"><button class="btn btn-primary" type="submit">Performances</button> </div>
-      <div class="swiper-slide"><button class="btn btn-primary" type="submit">AR/VR</button> </div>
-      <div class="swiper-slide"><button class="btn btn-primary" type="submit">Projections/Immersion</button> </div>
+      <div class="swiper-slide no1"><button class="btn btn-primary" type="submit">Toutes</button> </div>
+      <div class="swiper-slide no2"><button class="btn btn-primary" type="submit">Installations/interactives</button></div>
+      <div class="swiper-slide no3"><button class="btn btn-primary" type="submit">Concert</button> </div>
+      <div class="swiper-slide no4"><button class="btn btn-primary" type="submit">Performances</button> </div>
+      <div class="swiper-slide no5"><button class="btn btn-primary" type="submit">AR/VR</button> </div>
+      <div class="swiper-slide no6"><button class="btn btn-primary" type="submit">Projections/Immersion</button> </div>
+    
      
-   
     
 </div>
-
+<div class="swiper-pagination"></div>
 </div>
-
+</swiper-container>
+<!--<swiper-container class="mySwiper" navigation="true">
+    <swiper-slide><img src="" alt="" class=""></swiper-slide>
+    <swiper-slide><img src="" alt="" class=""></swiper-slide>
+    <swiper-slide><img src="" alt="" class=""></swiper-slide>
+  </swiper-container>-->
   
     
-      </div>
+      
     </section>
         </div>
         </div>

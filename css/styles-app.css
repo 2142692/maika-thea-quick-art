@@ -242,3 +242,24 @@ a{
 #navbar-example1{
    background-color: #006d7700;
  }
+
+ .no3{
+   margin-left: 130px;
+ }
+
+ .no4{
+   margin-left: 10px;
+ }
+
+ .no5{
+   margin-left: 52px;
+ }
+
+.swiper-slide{
+   margin-top: 10px;
+   
+ }
+
+ .main-artwork{
+   background-color: var(--couleur-semi-blanc);
+ }
