@@ -228,23 +228,20 @@ iframe {
   margin: 20px;
 }
 
-.container-info {
+.infolettre {
   background-color: #006d7777;
+
 }
+
+
 
 .containerInfolettre {
   background-image: url("https://images.unsplash.com/photo-1578985824626-945a6f546304?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
   background-size: 100%;
-  background-position: 50%;
   background-repeat: no-repeat;
-
-  margin-top: 100px;
+  object-fit: contain;
   width: 100%;
   height: 10%;
-}
-
-.col-mb-3 {
-  margin-bottom: 500px;
 }
 
 .modal-dialog p {
@@ -281,8 +278,8 @@ iframe {
 
 .swiper {
   width: 600px;
-  height: 300px;
-  background-color: #edf6f9;
+  height:200px;
+  background-color: var(--couleur-semi-blanc);
 }
 
 .img {
@@ -392,6 +389,7 @@ iframe {
 .swiper-wrapper {
   padding-left: 250px;
   padding-top: 50px;
+
 }
 .swiper-slide {
   width: 100%;
@@ -400,7 +398,7 @@ iframe {
 
 section .swiper {
   width: 98vw;
-  height: 250vh;
+  height: 350px;
 }
 img .imgSlide {
   width: 100px;
@@ -417,11 +415,11 @@ img .imgSlide {
 }
 
 .imgSlide {
-  width: 350px;
+  width: 210px;
 
-  height: 500px;
+  height: 350px;
 
-  margin-top: 750px;
+
   overflow-x: scroll;
   overflow-x: hidden;
   object-fit: fill;
@@ -433,7 +431,7 @@ img .imgSlide {
 
 .no2 {
   margin-left: 300px;
-}
+  }
 
 .no3 {
   margin-left: 600px;
