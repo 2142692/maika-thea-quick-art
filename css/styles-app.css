@@ -33,9 +33,15 @@
 
 }
 
-.coeur .bi-heart-fill{
+.coeur {
+   
+   border: 10px solid var(--couleur-semi-blanc);
+   border-radius: 20px;
+   margin-top: 9px;
+}
+.liker{
    color: var(--couleur-rose-foncé);
-  
+   background-color: var(--couleur-semi-blanc);
 }
 
 main{
@@ -129,7 +135,6 @@ i{
 }
 
 body {
-overflow-x: hidden;
   background-color: var(--couleur-primaire);
 }
 
@@ -160,7 +165,7 @@ h5{
 }
 
 #vedette{
-  width: 140vw;
+ overflow-x: hidden;
 }
 
 #vedette .card{
@@ -262,4 +267,61 @@ a{
 
  .main-artwork{
    background-color: var(--couleur-semi-blanc);
+   padding-top: 0px;
+   
  }
+
+ .art{
+   background-color: var(--couleur-secondaire);
+   color: var(--couleur-semi-blanc);
+   width: 90%;
+   border: 5px solid #006D77;
+   border-radius: 5px;
+}
+
+.container-artistes{
+   z-index:1;
+   border-radius: 9px;
+   background-color: var(--couleur-semi-blanc);
+   width: 100vw;
+
+ 
+
+}
+
+.photo{
+   height: 42vh;
+   min-height: 200px;
+   object-fit: cover;
+   
+   object-position: 50% 0%;
+}
+
+div .cart{
+   width: 90vw;
+}
+.cart .description{
+font-size: 15px;
+}
+
+.accordion-item{
+   width: 95%;
+   background-color: var(--couleur-semi-blanc);
+   margin-bottom: 1rem;
+   
+}
+
+.accordion-button{
+   width: 100%;
+   background-color: var(--couleur-rose-foncé);
+   color: var(--couleur-semi-blanc);
+}
+
+.accordion-header{
+   
+  color: var(--couleur-semi-blanc);
+}
+
+.work{
+   background-color: var(--couleur-semi-blanc);
+}

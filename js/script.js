@@ -1,8 +1,13 @@
+const btn  = document.querySelector('.coeur');
+btn.addEventListener('click', function() {
+    btn.classList.toggle("liker");
+
+});
+
 var swipers = new Swipers('.swiper-filters', {
 
 direction: 'horizontal',
-loop: true,
-  slidesPerView: 1,
+slidesPerView: 'auto',
  spaceBetween: 30,
  autoplay: {
    delay: 1500,
@@ -11,12 +16,12 @@ loop: true,
     // when window width is >= 320px
     768: {
       slidesPerView: 2,
-      spaceBetween: 20
+      spaceBetween: 20,
     },
     // when window width is >= 480px
     992: {
       slidesPerView: 3,
-      spaceBetween: 30
+      spaceBetween: 30,
     },},});
 
 
@@ -117,6 +122,7 @@ const Swiper = new Swiper(".swiper", {
   modules: [Navigation, Pagination],
 });*/
 
+/*
 var swiper = new Swiper(".swiper-screenshots", {
   direction: 'horizontal',
   loop: true,
@@ -143,3 +149,5 @@ var swiper = new Swiper(".swiper-screenshots", {
     },},
   
 });
+
+*/

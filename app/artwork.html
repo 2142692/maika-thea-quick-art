@@ -21,17 +21,19 @@
   <link rel="stylesheet" href="../css/styles-app.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
-<body>
+<body class="work">
   <header>
     <img class="image-font" src="../../assets/artworks/animation.png">
   
     <nav id="navbar-example1" class="navbar navbar-light fixed-top">
       <div class="container-fluid">
           <div class="row">
-            <div class="col-0">
+            <div class="col-0 mt-2">
               <a class="flech" href="app.html">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="bi bi-chevron-left"></span>
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                  </svg></span>
                 </button>
             </a>
       
@@ -40,9 +42,11 @@
         
    
         
-        <div class="col-0">
+        <div class="col-0 mt-2">
           <a class="coeur">
-            <i class="bi bi-heart-fill"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+            </svg>
           </a>
           </div>
   
@@ -80,15 +84,15 @@
   </div>
   </div>
 
-<h3 class="ms-4">Artiste.s</h3>
+<h3 class="art ms-4">Artiste.s</h3>
 
 <div class="row justify-content-center">
 <div class="col-12 ">
-<div class="card ms-4">
-  <img src="../../assets/artworks/Anima-capa.jpg" class="card-img-top">
+<div class="card cart ms-4">
+  <img src="../../assets/artworks/Anima-capa.jpg" class="card-img-top photo">
   <div class="card-body">
-    <h5 class="card-title">Anima-capa</h5>
-    <p class="card-text">Anima+Games est une union de deux évènements qui consiste 
+    <h4 class="card-title">Anima-capa</h4>
+    <p class="card-text description" >Anima+Games est une union de deux évènements qui consiste 
       animation et jeux.
     </p>
     <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">En savoir plus</button>
@@ -140,7 +144,7 @@ L'animation slovaque « Cowboyland », est réalisée entièrement en 2D par Dav
 
 <!-- À propos -->
 
-<h3 class="ms-4 mt-5">À propos de l'évènements</h3>
+<h3 class="art ms-4 mt-5">À propos de l'évènements</h3>
 <div class="container-propos ms-4">
 <p>DOSSIER DES GAGNANTS ANIMA+ AWARD</p>
 <p>1ère place</p>
@@ -179,28 +183,26 @@ L'animation slovaque « Cowboyland », est réalisée entièrement en 2D par Dav
     >
       <div class="accordion-body">
         
-        <label>Courriel
-        <input type="text" 
-        placeholder="nom@example.com">
-      </label>
-      <br/>
-      <br/>
-      <label>Prénom
-        <input type="text">
-      </label>
-      <br/>
-      <br/>
-      <label>Nom
-        <input type="text">
-      </label>
-      <br/>
-      <br/>
-      <label>Date de visite
-        <input type="text" 
-        placeholder="jj/mm/aaaa">
-      </label>
-      <button class="btn btn-primary" type="submit">Envoyer</button>
+        <label for="exampleFormControlInput1" class="form-label">Courriel</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       
+      
+      <br/>
+      <label for="exampleInputEmail1" class="form-label">Prénom</label>
+      <input type="text" class="form-control" id="exampleInputPrenom" >
+      
+      <br/>
+      <label for="exampleInputPassword1" class="form-label">Nom</label>
+    <input type="text" class="form-control" id="exampleInputNom">
+ 
+      
+      <br/>
+      <label for="exampleFormControlInput1" class="form-label">Date de visite</label>
+      <input type="email" class="form-control" placeholder="jj/mm/aaaa">
+      </label>
+      <button class="btn btn-primary mt-3" type="submit">Envoyer</button>
+    </div>
+    </div>
       </div>
     </div>
   </div>
@@ -209,32 +211,32 @@ L'animation slovaque « Cowboyland », est réalisée entièrement en 2D par Dav
 
 <!-- Pied de page -->
 
-<footer class="navbar navbar-light navbar-expand-lg ">
-  
-    <div class="container">
-      <div class="row justify-content-start">
+<footer class="mt-5">
 
-        <div class="col-sm-4 col-12">
-          <p class="text-sm-start"> Project fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. 
-            UI de l'app créé par Maïka Désy et Théa Lacasse.
-          </p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-
-        <div class="col-sm-3 col-6">
-      <a class="navbar-brand" href="index.html">
-        
-        <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg">
-      
-      </a>
-    </div>
-        </div>
+  <div class="container">
     
-  
+      
+        <div class="row justify-content-center">
+          <div class="col-7 col-sm-5 p-3">
+        <p class="text-center text-sm-start"> Project fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. 
+          UI de l'app créé par Maïka Désy et Théa Lacasse.
+        </p>
+        </div>
+        
+     
+        <div class="col-6 col-sm-5 p-3 ms-5">
+    <a class="navbar-brand" href="index.html">
+      
+      <img src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg">
+    
+    </a>
+  </div>
+</div>
+        
+    
+ 
 </footer>
-<script src="script.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
 
